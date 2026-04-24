@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "RESET",
+    "slug": "reset-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "resetmobile",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.reset.mobile"
+    },
+    "android": {
+      "package": "com.reset.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "splash": {
+      "backgroundColor": "#FFFFFF",
+      "resizeMode": "contain"
+    },
+    "plugins": [
+      [
+        "expo-secure-store"
+      ]
+    ]
+  }
+}
